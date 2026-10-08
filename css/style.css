@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a:hover{
+    color: #ff0000;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+}
