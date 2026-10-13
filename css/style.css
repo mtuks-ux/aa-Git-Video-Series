@@ -1,15 +1,58 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 a:hover{
     color: #ff0000;
 }
 
+a{
+    
+    color: white;
+    
+    
+}
+
+
+
 nav{
     display: flex;
     justify-content: space-around;
-    background-color: #f2f2f2;
+    background-color: #ECC299;
+    color: white;
 }
+
+h1{
+    color: white;
+    font:100px Serif, serif;
+    font-size: 50px;
+    line-height: 2px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 24px;
+    background-color: #ECC299;
+}
+
+h2{
+    color: white;
+    margin: 10px;
+    padding: 5px;
+    background-color: #ECC299;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1080px) {
+body{
+    background-color: white;
+    }   
+}
+
+p{
+    color: black;
+    font-size: 16px;
+    margin: 10px;
+    padding: 5px;
+    background-color: white;
+    text-align: justify;
+}
+
+
+
+
